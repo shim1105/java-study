@@ -5,8 +5,6 @@ public class StringType {
 		String str= "123";
 		System.out.println(str+123);
 		String str2= new String("1123");
-		System.out.println(str.equals(str2)); 
-		
-		
+		System.out.println(str.equals(str2));
 	} 
 }

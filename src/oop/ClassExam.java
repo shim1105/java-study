@@ -11,11 +11,12 @@ public class ClassExam {
 		System.out.println(ce.str);
 //		ce=null;
 //		System.out.println(ce.str);
-		for (int i = 0; i < 3; i++) {
+		int le = ce.nums.length;// 배열의 index 개 수
+		for (int i = 0; i < le; i++) {
 			ce.nums[i] = (1 + i) * 10;
-			
+
 		}
-		for (int i=0;i<3;i++) {
+		for (int i = 0; i < le; i++) {
 			System.out.println("ClassExam의 nums[" + i + "]" + " = " + ce.nums[i]);
 		}
 	}

@@ -16,5 +16,6 @@ public class ClassExam {
 		System.out.println(ce.c);
 		System.out.println(ce.s);
 		ce.test();
+		
 	}
 }

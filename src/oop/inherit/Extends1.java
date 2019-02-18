@@ -1,10 +1,10 @@
 package oop.inherit;
 
 
-class Mother extends Son{//데이터 타입으로 사용 가능하다.
+class Mother1 extends Son{//데이터 타입으로 사용 가능하다.
 	int age=55;
 	String name="어머니";
-	Mother() {
+	Mother1() {
 		System.out.println("난 엄마 생성자!");
 	}
 	void attack() {
@@ -12,7 +12,7 @@ class Mother extends Son{//데이터 타입으로 사용 가능하다.
 	}
 	
 }
-public class Extends1 extends Mother{  //잘 안씀 상속을 받으면 아래처럼 
+public class Extends1 extends Mother1{  //잘 안씀 상속을 받으면 아래처럼 
 											// 쓸수 있다.
 	Extends1() {
 		System.out.println("난 확장 생성자!");

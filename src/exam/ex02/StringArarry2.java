@@ -19,7 +19,7 @@ public class StringArarry2 {
 			sa2.strs[i]=(sa2.strs.length-i)+"";
 			
 		}
-		for(int j=0;j<sa1.strs.length;j++) {
+		for(int j=0;j<sa1.strs.length;j++) {  
 			System.out.println("sa1.strs["+j+"]="+sa1.strs[j]);
 			System.out.println("sa2.strs["+j+"]="+sa2.strs[j]);
 		}

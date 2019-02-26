@@ -44,8 +44,7 @@ public class DogList {
 			System.out.print("Name " + g.getName() + " Age ");
 			System.out.println(g.getAge());
 			
-		}
-		
+		}		
 	}
 
 }

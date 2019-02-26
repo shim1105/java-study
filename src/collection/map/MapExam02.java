@@ -17,5 +17,6 @@ public class MapExam02 {
 			System.out.println(key + " : "+map.get(key));  // 이런 식으로 map의 key와 벨루 값을 
 															// 가지고 올수 있음
 		}
+		
 	}
 }

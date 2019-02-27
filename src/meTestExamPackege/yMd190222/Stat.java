@@ -21,7 +21,6 @@ public class Stat {
 				if (a.get(j) > a.get(i)) {
 					Collections.swap(a, j, i );
 				}
-
 			}
 		}
 		System.out.println(a);

@@ -8,11 +8,11 @@ public class BoardService {
 	public void selectBoard() {
 		String sql= "select * from board_info";
 		try {
-			PreparedStatement ps= DBCon.getCon().prepareStatement(sql);
+			PreparedStatement ps= DBCon.getCon().prepareStatement(sql);  // 만들어 지면서 sql을 집어느면서 만듬 
 			ResultSet rs = ps.executeQuery();
 			System.out.println("제목");
 			while(rs.next()) {
-				System.out.println(rs.getString("bi_title"));
+				System.out.println(rs.getString("bi_num")+"= "+rs.getString("bi_title"));
 				System.out.println("========================");
 			}
 		} catch (SQLException e) {

@@ -8,6 +8,23 @@ public class BoardInfoVO { // VO=벨류오브젝트의 약자. , NTT , DTO ,
 	private String biCretim;
 	private Integer biCnt;
 	private String biIsactive;
+	private String uiName;
+	private int uiNum;
+	public String getUiName() {
+		return uiName;
+	}
+	public void setUiName(String uiName) {
+		this.uiName = uiName;
+	}
+	public int getUiNum() {
+		return uiNum;
+	}
+	public void setUiNum(int uiNum) {
+		this.uiNum = uiNum;
+	}
+	public String getBiContent() {
+		return biContent;
+	}
 	public Integer getBiNum() {
 		return biNum;
 	}
@@ -53,7 +70,10 @@ public class BoardInfoVO { // VO=벨류오브젝트의 약자. , NTT , DTO ,
 	@Override
 	public String toString() {
 		return "BoardInfoVO [biNum=" + biNum + ", biTitle=" + biTitle + ", biContent=" + biContent + ", biCredat="
-				+ biCredat + ", biCretim=" + biCretim + ", biCnt=" + biCnt + ", biIsactive=" + biIsactive + "]";
+				+ biCredat + ", biCretim=" + biCretim + ", biCnt=" + biCnt + ", biIsactive=" + biIsactive + ", uiName="
+				+ uiName + ", uiNum=" + uiNum + "]";
 	}
+
+	
 	
 }

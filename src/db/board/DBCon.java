@@ -15,6 +15,7 @@ public class DBCon {
 	}
 
 	public static Connection getCon() {
+
 		if (con == null) {
 			try {
 				con = DriverManager.getConnection(URL, USER, PASSWORD);
